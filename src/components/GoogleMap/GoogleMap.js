@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { withGoogleMap, withScriptjs, GoogleMap, InfoWindow } from 'react-google-maps';
 
-const API_KEY = "8724f6361faef2c68171d5561b48b8b2";
+const API_KEY = "YOUR_API_KEY";
 
 const Map = withScriptjs(withGoogleMap((props) => {
 
